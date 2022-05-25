@@ -27,7 +27,7 @@ namespace UrunYonetimiStokTakip
             cbUrunMarkasi.DataSource = markaManager.GetAll();/*Markaları çekip cbUrunMarkasi na yükledik, ön yüzden
             Display Member a MarkaAdi, Value Member a Id yazıp enter dedik.*/
         }
-        void Temizle()
+        void Temizle() 
         {
             txtIskonto.Text = String.Empty;
             txtKdv.Text = String.Empty;
